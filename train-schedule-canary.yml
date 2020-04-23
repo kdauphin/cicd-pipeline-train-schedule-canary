@@ -24,7 +24,7 @@ spec:
   replicas: $CANARY_REPLICAS
   selector:
     matchLabels:
-      app: train-schedule-canary
+      app: train-schedule
       track: canary
   template:
     metadata:
